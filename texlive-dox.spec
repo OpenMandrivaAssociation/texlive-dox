@@ -1,3 +1,9 @@
+# revision 20768
+# category Package
+# catalog-ctan /macros/latex/contrib/dox
+# catalog-date 2010-12-16 20:18:25 +0100
+# catalog-license lppl
+# catalog-version 2.2
 Name:		texlive-dox
 Version:	2.2
 Release:	1
@@ -50,6 +56,7 @@ limitation.
 #- source
 %doc %{_texmfdistdir}/source/latex/dox/dox.dtx
 %doc %{_texmfdistdir}/source/latex/dox/dox.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ limitation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
