@@ -1,6 +1,6 @@
 Name:		texlive-dox
 Version:	46011
-Release:	1
+Release:	2
 Summary:	Extend the doc package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dox
