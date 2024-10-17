@@ -3,7 +3,7 @@ Version:	46011
 Release:	2
 Summary:	Extend the doc package
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dox
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/dox
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dox.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dox.doc.r%{version}.tar.xz
